@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Fira Sans', sans-serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+    font-family: 'Satisfy', cursive; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hr-style {
+    border: 5px dotted #fff;
+    border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+}
+
+/* =============header starts here============== */
+header {
+    background-image: url(images/pexels-cottonbro-4709289.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: .8;
+}
+
+.navbar-icon {
+    color: #fff;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    border: 3px solid yellowgreen;
+    border-radius: 20%;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    background: #2980b9;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+/* =============header ends=============== */
+
+/* =============features start here================== */
+#features {
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px #2980b9;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: #fff;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* ================features ends here================ */
+
+/* ==============about-me start here============== */
+#about-me {
+    padding: 4% 10%;
+    background: #e8ded2;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+
+#about-me a {
+    font-size: 0.9rem;
+    font-weight: light;
+    color: #000;
+}
+
+.achieve-desc span {
+    font-weight: 700 !important;
+}
+
+/* ==============about-me ends here============== */
+
+/* ==============tutorial start here============== */
+#tutorial {
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card {
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px #000;
+}
+
+/* ==============tutorial ends here============== */
+
+/* =============feedback start here============= */
+#feedback {
+    padding: 5%;
+    background: #5eaaa8;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.feedback-img {
+    width: 120px;
+    height: 120px;
+
+}
+
+/* =============feedback ends here============= */
+/* ===============contact starts here=========== */
+#contact {
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+
+.form-group label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* ===============contact ends here=========== */
+/* ------------footer starts here----------- */
+footer {
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+/* ------------footer ends here----------- */
+@media (max-width: 768px) {
+    .nav-link {
+        background: rgb(0, 0, 0, 0.7);
+    }
+
+    .banner-container h1 {
+        font-size: 2.5rem;
+    }
+}
